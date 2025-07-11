@@ -4,10 +4,8 @@ Här sammanfattas hur våra elbilsladdare fungerar i olika scenarion och med oli
 
 ## Våra laddare
 
-- De två vita Alfen-laddarna (ID: 22052 och 22053) delar på en 32 A-säkring (22 kW, 3-fas, 400 V). Dvs fyra uttag delar på tre faser om 32A.
-- Den blå Ls-4-laddaren är en enfasladdare avsäkrad med 32 A.
-  - Laddaren begränsar effekten: Max 3,7 kW (230 V × 16 A) oavsett bilens kapacitet, vilket gäller både 1- och 3-fasbilar.
-- Lastbalansering är aktiv: Om fler än en bil laddas samtidigt, fördelas strömmen automatiskt mellan laddarna.
+- De två vita Alfen-laddarna (ID: 22052 och 22053) delar på en 32 A-säkring (22 kW, 3-fas, 400 V). Dvs fyra uttag delar på tre faser om 32A. Lastbalanserare fördelar strömmen automatiskt mellan laddarna.
+- Den blå Ls-4-laddaren är en enfasladdare avsäkrad med 32 A. Laddaren begränsar här effekten: Max 3,7 kW (230 V × 16 A) oavsett bilens kapacitet, vilket gäller både 1- och 3-fasbilar.
 - 1-fasbilar (som t.ex. laddhybrider) laddar på endast en fas och kan därför bara använda ca ⅓ av den totala effekten.
 
 ## Allmänt om elbilar
@@ -41,3 +39,15 @@ Här sammanfattas hur våra elbilsladdare fungerar i olika scenarion och med oli
 |-------|----------|-----------------|---------------|------------|-----------|
 | 1     | 16:35    | 5,5 kW          | 5,4 kW        | 3-fas bil  | Delad last med 22052 – totalt 16 A fördelat på 22053 |
 | 2     | 16:57    | 5,5 kW          | 1,8 kW        | 1-fas bil  | Lägre effekt på 1-fasbil | 
+
+## Felsökning
+
+Vi har stött på vissa typer av fel som avhjälpts. Mer information nedan.
+
+### Begränsad kapacitet
+
+Det har hänt att en laddare inte kunnat erbjuda tillgänglig kapacitet. Till exempel har en 1-fasbil inte kommit upp i mer än 1,3 kW på en av de vita Alfen-laddarna, trots att det varit den enda inkopplade bilen.
+
+Detta kan hända om laddaren tappar uppkopplingen till lastbalanseraren. När det händer går laddaren in i ett säkerhetsläge och erbjuder max 6A. 6A på en fas blir ca 1,3 kW. På tre faser blir detta ca 4,2 kW.
+
+Supporten på Mer kan avhjälpa detta på distans. Hör av er till support, se hemsida eller app för kontaktuppgifter, uppge namnet på samfälligheten och be dem ta en titt så fixar de det lätt.
