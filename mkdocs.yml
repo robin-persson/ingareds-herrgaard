@@ -1,1 +1,5 @@
 site_name: Ingareds Herrgårds Samfällighetsförening
+
+nav:
+  - Hem: index.md
+  - Elbilsladdare: elbilsladdare.md
