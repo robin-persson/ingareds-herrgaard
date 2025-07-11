@@ -2,4 +2,8 @@ site_name: Ingareds Herrgårds Samfällighetsförening
 
 nav:
   - Hem: index.md
+  - Parkering: parkering.md
   - Elbilsladdare: elbilsladdare.md
+markdown_extensions:
+  - toc:
+      permalink: true
