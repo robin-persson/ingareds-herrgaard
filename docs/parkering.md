@@ -1,4 +1,8 @@
-Här sammanfattas hur samfällighetens parkeringsplatser nyttjas.
+# Innehåll
+
+På denna sida sammanfattas hur samfällighetens parkeringsplatser nyttjas.
+
+[TOC]
 
 # Lokalisering
 

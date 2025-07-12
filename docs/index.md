@@ -1,7 +1,6 @@
-# Ingareds Herrgårds Samfällighetsförening
+Denna webbsida sammanställer information som är relevant för vår samfällighetsförening men som inte passar in under respektive BRF.
 
-Denna webbsida samlar allmän information relevant för vår samfällighet men som inte passar in under respektive BRF.
+# Innehåll
 
-## Innehåll
-
-[TOC]
+1. [Parkering](./parkering.md)
+1. [Elbilsladdare](./elbilsladdare.md)

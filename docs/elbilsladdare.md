@@ -1,25 +1,39 @@
-Här sammanfattas hur våra elbilsladdare fungerar i olika scenarion och med olika typer av laddbara bilar.
+# Innehåll
+
+På denna sida sammanfattas hur våra elbilsladdare fungerar.
+
+[TOC]
 
 # Registrering
 
-Om du nyligen skaffat en laddbar bil och önskar ladda på samfällighetens stolpar behöver du göra följande:
-1. **Skaffa parkeringstillstånd**. Se [Parkeringstillstånd](./parkering.md#parkeringstillstånd)
+Om du  önskar ladda på samfällighetens stolpar behöver du göra följande:
+
+1. **Skaffa parkeringstillstånd**. Se [sidan Parkeringstillstånd](./parkering.md#parkeringstillstånd)
 2. **Få tillgång till laddning** på samfällighetens stolpar. Stolparna tillhandahålls av [Mer](https://se.mer.eco/). Skaffa ett konto, antingen via webben eller appen, och be kundtjänst att registrera dig på samfällighetens stolpar. Se deras [kontaktuppgifter](https://se.mer.eco/mer/kontakta-oss/).
 
 # Våra laddare
 
-Samfälligheten har i skrivande stund 3 laddstolpar med två uttag i varje. Två vita Alfen-laddare samt en blå, Ls-4.
+Samfälligheten har i skrivande stund 3 laddstolpar med två uttag i varje. Två vita Alfen-laddare samt en blå, LS4.
 
-## Vita stolparna (Alfen)
+## Vita stolparna (Alfen Eve Double Pro-Line)
 
-De två vita Alfen-laddarna (ID: 22052 och 22053) delar på en 32 A-säkring (22 kW, 3-fas, 400 V). Dvs fyra uttag delar på tre faser om 32A. Lastbalanserare fördelar strömmen automatiskt mellan laddarna.
+![Alfen Eve Double Pro-Line](./img/alfen-eve-double-pro-line.png)
+
+De två vita laddarna (ID: 22052 och 22053), av märket Alfen Eve Double Pro-line, delar på en 32 A-säkring (22 kW, 3-fas, 400 V). Dvs fyra uttag delar på tre faser om 32A. Lastbalanserare fördelar strömmen automatiskt mellan laddarna.
+
+Varje enskilt uttag kan leverera en effekt upp till 11 kW.
 
 > ℹ️ Om alla uttag används kommer hastigheten behöva begränsas. Se [exempel](#exempel) nedan.
 
-## Blå stolpen (Ls-4)
+> ℹ️ 1-fasbilar (som t.ex. laddhybrider) laddar på endast en fas och kan därför bara använda ca ⅓ av den totala effekten.
 
-Den blå Ls-4-laddaren är en 1-fasladdare avsäkrad med 32 A. Laddaren begränsar här effekten: Max 3,7 kW (230 V × 16 A) oavsett bilens kapacitet, vilket gäller både 1- och 3-fasbilar.
-- 1-fasbilar (som t.ex. laddhybrider) laddar på endast en fas och kan därför bara använda ca ⅓ av den totala effekten.
+## Blå stolpen (Garo LS4)
+
+![Garo LS4](./img/garo-ls4.jpg)
+
+Den blå LS4-laddaren är en 1-fasladdare avsäkrad med 32 A.
+
+> ℹ️ Eftersom endast en fas nyttjas gäller samma kapacitet oavsett bil: Max 3,7 kW (230 V × 16 A) oavsett om bilen har 1- eller 3-fasladdare.
 
 # Allmänt om elbilar
 
