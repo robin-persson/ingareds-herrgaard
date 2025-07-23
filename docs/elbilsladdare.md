@@ -44,11 +44,13 @@ Den blå LS4-laddaren är en 1-fasladdare avsäkrad med 32A.
 # Exempel: Effektfördelning när flera laddar samtidigt
 
 **Exempel 1 – Två 3-fasbilar**
+
 - Strömmen delas lika: 32A / 2 = 16A per laddare
 - Effekt per bil: √3 × 400V × 16A ≈ 11 kW
 - Båda bilarna laddar med ca 11kW var
 
 **Exempel 2 – En 3-fasbil + en 1-fasbil**
+
 - Strömmen delas lika: 32A / 2 = 16A per laddare
 - 1-fasbilen: 230V × 16A = 3,7kW
 - 3-fasbilen: √3 × 400V × 16A ≈ 11kW
@@ -56,12 +58,14 @@ Den blå LS4-laddaren är en 1-fasladdare avsäkrad med 32A.
 **Exempel 3 - flera bilar på de två vita laddarna**
 
 Laddare 22052:
+
 | Uttag | Starttid | Erbjuden effekt | Verklig effekt | Typ av bil | Kommentar |
 |-------|----------|-----------------|---------------|------------|-----------|
 | 1     | 13:00    | 11kW           | 3,6kW        | 1-fas bil  | Färdigladdad när uttag 2 kopplades in |
 | 2     | 19:00    | 11kW           | 3,6kW        | 1-fas bil  | Båda uttag fick 16A vid samtidig laddning |
 
 Laddare 22053:
+
 | Uttag | Starttid | Erbjuden effekt | Verklig effekt | Typ av bil | Kommentar |
 |-------|----------|-----------------|---------------|------------|-----------|
 | 1     | 16:35    | 5,5kW          | 5,4kW        | 3-fas bil  | Delad last med 22052 – totalt 16A till 22053, dvs 8A per uttag |
@@ -76,11 +80,13 @@ För att underlätta framtida felsökning och åtgärd följer nedan några fel 
 Det har hänt att en vit laddare inte kunnat erbjuda full kapacitet. Till exempel har en 1-fasbil inte kommit upp i mer än 1,3kW (6A) på en av de vita Alfen-laddarna, trots att det varit den enda inkopplade bilen (vilket borde gett en effekt på 7kW, eller 32A). Andra gånger har en ensam bil inte nått mer än 1,8kW (8A). 
 
 **(Max 6A) Förlorad uppkoppling till lastbalanseraren**
+
 För det första kan det hända att laddaren tappar uppkopplingen till lastbalanseraren. När så sker går laddaren in i ett säkerhetsläge och erbjuder max 6A. 6A på en fas blir ca 1,3kW. På tre faser blir detta ca 4,2kW.
 
 > ✅ Supporten på Mer kan avhjälpa detta på distans, vilket gjordes bland annat 2025-07-10. Hör av er till support, se [kontaktuppgifter](https://se.mer.eco/mer/kontakta-oss/), uppge namnet på samfälligheten och be dem ta en titt så fixar de det lätt.
 
 **(Max 8A) Stolpens inställningar**
+
 För det andra har varje stolpe en inställning som reglerar max tillåtna belastning per uttag. I juli 2025 var denna satt till max 8A på stolpe 22053, men max 32A på stolpe 22052. 8A på en fas blir ca 1,8kW, på tre faser ca 5,5kW. 
 
 > ✅ Supporten på Mer justerade denna inställning 2025-07-23 så att stolpe 22053 erbjöd max 16A istället (1-fas ca 3,6kW, 3-fas ca 11kW). Vid behov, hör av er till support, se [kontaktuppgifter](https://se.mer.eco/mer/kontakta-oss/), uppge namnet på samfälligheten så kan de justera inställningarna på distans.
