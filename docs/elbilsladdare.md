@@ -40,22 +40,29 @@ Den blå LS4-laddaren är en 1-fasladdare avsäkrad med 32A.
 - De flesta elbilar har en ombordladdare som klarar max 16A per fas (max 11kW).
 - Bilen själv begränsar laddningen beroende på batteriets status, temperatur, laddnivå m.m.
 - Vissa bilar har ombordladdare som laddar på tre faser, vissa endast på en fas. Se [exempel](#exempel-effektfordelning-nar-flera-laddar-samtidigt) nedan för att förstå vad det innebär för effekten vid laddning.
+- Även om bilen har en 3-fasladdare ombord kan laddning begränsas till 1 fas om kabeln som används endast har en ledare. Det behövs en ledare per fas. Kollar man kabelns kontakt kan man se om där finns stift till alla faser. Leta efter de tre ledarna, märkta L1, L2, L3 eller dylikt.
 
 # Exempel: Effektfördelning när flera laddar samtidigt
 
 **Exempel 1 – Två 3-fasbilar**
 
-- Strömmen delas lika: 32A / 2 = 16A per laddare
+- Strömmen delas lika: 32A / 2 = 16A per uttag
 - Effekt per bil: √3 × 400V × 16A ≈ 11 kW
 - Båda bilarna laddar med ca 11kW var
 
 **Exempel 2 – En 3-fasbil + en 1-fasbil**
 
-- Strömmen delas lika: 32A / 2 = 16A per laddare
-- 1-fasbilen: 230V × 16A = 3,7kW
+- Strömmen delas lika: 32A / 2 = 16A per uttag
+- 1-fasbilen: 230V × 16A ≈ 3,7kW
 - 3-fasbilen: √3 × 400V × 16A ≈ 11kW
 
-**Exempel 3 - flera bilar på de två vita laddarna**
+**Exempel 3 – En ensam bil**
+
+- Max tillåtna belastning gäller: bör vara 16A
+- 1-fasbil: 230V × 16A ≈ 3,7kW
+- 3-fasbil: √3 × 400V × 16A ≈ 11kW
+
+**Exempel 4 - flera bilar på de två vita laddarna**
 
 Laddare 22052:
 
@@ -77,7 +84,7 @@ För att underlätta framtida felsökning och åtgärd följer nedan några fel 
 
 ## En av de vita laddarna ger alltid lägre effekt än den andra 
 
-Det har hänt att en vit laddare inte kunnat erbjuda full kapacitet. Till exempel har en 1-fasbil inte kommit upp i mer än 1,3kW (6A) på en av de vita Alfen-laddarna, trots att det varit den enda inkopplade bilen (vilket borde gett en effekt på 7kW, eller 32A). Andra gånger har en ensam bil inte nått mer än 1,8kW (8A). 
+Det har hänt att en vit laddare inte kunnat erbjuda full kapacitet. Till exempel har en 1-fasbil inte kommit upp i mer än 1,3kW (6A) på en av de vita Alfen-laddarna, trots att det varit den enda inkopplade bilen (vilket borde gett en effekt på 3,6kW, eller 16A). Andra gånger har en ensam bil inte nått mer än 1,8kW (8A). 
 
 **(Max 6A) Förlorad uppkoppling till lastbalanseraren**
 
@@ -87,6 +94,6 @@ För det första kan det hända att laddaren tappar uppkopplingen till lastbalan
 
 **(Max 8A) Stolpens inställningar**
 
-För det andra har varje stolpe en inställning som reglerar max tillåtna belastning per uttag. I juli 2025 var denna satt till max 8A på stolpe 22053, men max 32A på stolpe 22052. 8A på en fas blir ca 1,8kW, på tre faser ca 5,5kW. 
+För det andra har varje stolpe en inställning som reglerar max tillåtna belastning per uttag. I juli 2025 var denna satt till max 8A på stolpe 22053, men max 16A på stolpe 22052. 8A på en fas blir ca 1,8kW, på tre faser ca 5,5kW. 
 
 > ✅ Supporten på Mer justerade denna inställning 2025-07-23 så att stolpe 22053 erbjöd max 16A istället (1-fas ca 3,6kW, 3-fas ca 11kW). Vid behov, hör av er till support, se [kontaktuppgifter](https://se.mer.eco/mer/kontakta-oss/), uppge namnet på samfälligheten så kan de justera inställningarna på distans.
