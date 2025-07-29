@@ -17,7 +17,7 @@ Samfälligheten har i skrivande stund 3 laddstolpar med två uttag i varje. Två
 
 ## Vita stolparna (Alfen Eve Double Pro-Line)
 
-![Alfen Eve Double Pro-Line](./img/alfen-eve-double-pro-line.png){ align=left height=150 }
+![Alfen Eve Double Pro-Line](./img/alfen-eve-double-pro-line.png){ align=left width=100 }
 
 De två vita laddarna (ID: 22052 och 22053), av märket Alfen Eve Double Pro-line, delar på en 32A-säkring (22kW, 3-fas, 400V). Dvs fyra uttag delar på tre faser om 32A. Lastbalanserare fördelar strömmen automatiskt mellan laddarna.
 
@@ -29,7 +29,7 @@ Varje enskilt uttag kan leverera en effekt upp till 11kW.
 
 ## Blå stolpen (Garo LS4)
 
-![Garo LS4](./img/garo-ls4.jpg){ align=left height=150}
+![Garo LS4](./img/garo-ls4.jpg){ align=left width=50 }
 
 Den blå LS4-laddaren är en 1-fasladdare avsäkrad med 32A.
 
