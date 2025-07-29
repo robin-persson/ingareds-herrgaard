@@ -37,10 +37,12 @@ Den blå LS4-laddaren är en 1-fasladdare avsäkrad med 32A.
 
 # Allmänt om elbilar
 
+![Stiftplacering TYP2-kontakt för laddstolpe](./img/typ2-kontakt-stift.png){ align=right width=100 }
+
 - De flesta elbilar har en ombordladdare som klarar max 16A per fas (max 11kW).
 - Bilen själv begränsar laddningen beroende på batteriets status, temperatur, laddnivå m.m.
 - Vissa bilar har ombordladdare som laddar på tre faser, vissa endast på en fas. Se [exempel](#exempel-effektfordelning-nar-flera-laddar-samtidigt) nedan för att förstå vad det innebär för effekten vid laddning.
-- Även om bilen har en 3-fasladdare ombord kan laddning begränsas till 1 fas om kabeln som används endast har en ledare. Det behövs en ledare per fas. Kollar man kabelns kontakt kan man se om där finns stift till alla faser. Leta efter de tre ledarna, märkta L1, L2, L3 eller dylikt.
+- Även om bilen har en 3-fasladdare ombord kan laddning begränsas till 1 fas om kabeln som används endast har en ledare. Det behövs en ledare per fas. Kollar man kabelns kontakt kan man se om där finns stift till alla faser. Leta efter de tre ledarna, märkta L1, L2, L3 eller dylikt. Se bild här intill för ett schema över den kontakt som kopplas i laddstolpen.
 
 # Exempel: Effektfördelning när flera laddar samtidigt
 
